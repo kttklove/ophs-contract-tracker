@@ -163,11 +163,8 @@ export default function Home() {
               <a href="https://www.alliesforhumanity.org/about">About</a>
             </li>
             <li>
-              <a href="https://www.alliesforhumanity.org/contact">Contact</a>
-            </li>
-            <li>
-              <a href="#" className={styles.active}>
-                Contract Tracker
+              <a href="https://www.alliesforhumanity.org/stay-connected">
+                Contact
               </a>
             </li>
           </ul>
@@ -175,10 +172,12 @@ export default function Home() {
       </header>
       <main className={styles.container}>
         <section className={styles.hero}>
-          <h1>🧾 OPHS Contract Explorer</h1>
+          <h1>OPHS Contract Explorer</h1>
           <p>
-            Track and manage contracts efficiently, in partnership with Allies
-            for Humanity’s mission to foster collaboration.
+            Bringing transparency to OPHS funding, one contract at a time. We
+            break down city contracts into clear, accessible summaries — with
+            red flags, equity concerns, and accountability questions front and
+            center.
           </p>
         </section>
         <div className={styles.controls}>
@@ -252,9 +251,10 @@ export default function Home() {
       </main>
       <footer className={styles.footer}>
         <p>
-          © 2025 Allies for Humanity. <a href="#">Privacy</a> |{" "}
-          <a href="#">Terms</a> |{" "}
-          <a href="https://www.alliesforhumanity.org/contact">Contact Us</a>
+          © 2025 Allies for Humanity.
+          <a href="https://www.alliesforhumanity.org/stay-connected">
+            Contact Us
+          </a>
         </p>
       </footer>
     </>
