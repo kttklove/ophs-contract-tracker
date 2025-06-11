@@ -1,0 +1,17 @@
+:root {
+       --primary-brown: #8B5E3C;
+       --cream: #F5F5F5;
+       --muted-green: #4A7043;
+       --gold-accent: #D4A017;
+       --text-dark: #333333;
+     }
+
+     * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+     }
+
+     html, body {
+       font-family: 'Roboto', sans-serif;
+     }

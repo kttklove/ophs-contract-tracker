@@ -1,0 +1,129 @@
+.container {
+  padding: 2rem;
+  background-color: var(--cream);
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: var(--primary-brown);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-family: "Georgia", serif;
+  font-size: 1.5rem;
+  color: var(--cream);
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.navLink {
+  color: var(--cream);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navLink:hover {
+  color: var(--gold-accent);
+}
+
+.contractGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.contractCard {
+  background-color: white;
+  border: 1px solid var(--text-dark);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contractCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cardHeader {
+  font-family: "Georgia", serif;
+  font-size: 1.25rem;
+  color: var(--primary-brown);
+  margin-bottom: 0.5rem;
+}
+
+.cardDetail {
+  font-size: 0.95rem;
+  color: var(--text-dark);
+  margin: 0.25rem 0;
+}
+
+.toggleButton {
+  background-color: var(--muted-green);
+  color: var(--cream);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+  transition: background-color 0.3s;
+}
+
+.toggleButton:hover {
+  background-color: var(--gold-accent);
+}
+
+.filterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.searchInput {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--text-dark);
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--text-dark);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.sortButton {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--text-dark);
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sortButton:hover {
+  background-color: var(--muted-green);
+  color: var(--cream);
+}
